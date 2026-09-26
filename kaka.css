@@ -1,0 +1,108 @@
+/* Styling Typography & Layout Elements */
+    .header-banner {
+        background: #0f172a;
+        color: #ffffff;
+        padding: 14px 20px;
+        border-radius: 6px;
+        margin-bottom: 14px;
+    }
+    .header-banner h1 {
+        font-size: 15pt;
+        margin: 0 0 4px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #38bdf8;
+    }
+    .header-banner p {
+        margin: 0;
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+    .badge {
+        display: inline-block;
+        background: #0284c7;
+        color: #fff;
+        font-size: 7.5pt;
+        font-weight: 600;
+        padding: 2px 8px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+    .section-title {
+        font-size: 11pt;
+        font-weight: 700;
+        color: #0f172a;
+        border-bottom: 2px solid #0284c7;
+        padding-bottom: 3px;
+        margin: 12px 0 8px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section-title .meta {
+        font-size: 8.5pt;
+        font-weight: normal;
+        color: #64748b;
+    }
+    .problem-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .problem-item {
+        font-size: 8.8pt;
+        margin-bottom: 6px;
+        padding: 5px 8px;
+        background: #f8fafc;
+        border-left: 3px solid #cbd5e1;
+        border-radius: 0 4px 4px 0;
+        line-height: 1.35;
+    }
+    .problem-item strong {
+        color: #0369a1;
+    }
+    .problem-item.hard {
+        border-left-color: #e11d48;
+        background: #fff1f2;
+    }
+    .problem-item.medium {
+        border-left-color: #d97706;
+        background: #fffbeb;
+    }
+    .math {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 9.5pt;
+    }
+    .answer-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 8pt;
+        margin-top: 8px;
+    }
+    .answer-table th, .answer-table td {
+        border: 1px solid #cbd5e1;
+        padding: 4px 6px;
+        text-align: left;
+    }
+    .answer-table th {
+        background-color: #f1f5f9;
+        color: #0f172a;
+        font-weight: 600;
+    }
+    .answer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .box-info {
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 8.5pt;
+        margin-bottom: 10px;
+        color: #1e40af;
+    }
+</style>
